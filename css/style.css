@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://t4.ftcdn.net/jpg/02/11/91/93/360_F_211919377_9P0uKdXBCmnT7Ii98qveg1597Un3kLLk.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.course-list {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 auto;
+  width: 50%;
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  padding: 20px;
+}

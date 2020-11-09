@@ -72,5 +72,15 @@ var studentPlus = {
     age: prompt('Quanti anni hai?'),
 };
 
-classroom.push(studentPlus);
-console.log(studentPlus);
+  classroom.push(studentPlus);
+  console.log(studentPlus);
+
+// Stampa in pagina elenco iscritti
+document.getElementById('lista').innerHTML += (classroom[0].name + " " + classroom[0].surname + "<br>");
+document.getElementById('lista').innerHTML += (classroom[1].name + " " + classroom[1].surname + "<br>");
+document.getElementById('lista').innerHTML += (classroom[2].name + " " + classroom[2].surname + "<br>");
+document.getElementById('lista').innerHTML += (classroom[3].name + " " + classroom[3].surname + "<br>");
+document.getElementById('lista').innerHTML += (classroom[4].name + " " + classroom[4].surname + "<br>");
+document.getElementById('lista').innerHTML += (classroom[5].name + " " + classroom[5].surname + "<br>");
+document.getElementById('lista').innerHTML += (classroom[6].name + " " + classroom[6].surname + "<br>");
+document.getElementById('lista').innerHTML += (studentPlus.name + " " + studentPlus.surname + "<br>");
