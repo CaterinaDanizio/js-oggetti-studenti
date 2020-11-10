@@ -5,10 +5,11 @@
 
 // Oggetto che descrive uno studente
 var student = {
-  name: "Luca",
-  surname: "Rossi",
-  age: 32,
+  'name': "Luca",
+  'surname': "Rossi",
+  'age': 32,
   }
+console.log(student);
 
 // Fare un ciclo for in per stampare proprietà Oggetto
 for (var key in student){
@@ -18,49 +19,51 @@ for (var key in student){
 // Array di oggetti(studenti)
 var classroom = [
   {
-    name: 'Marco',
-    surname: 'Simeoni',
-    age: 22,
+    'name': 'Marco',
+    'surname': 'Simeoni',
+    'age': 22
   },
   {
-    name: 'Stefano',
-    surname: 'Castelli',
-    age: 29,
+    'name': 'Stefano',
+    'surname': 'Castelli',
+    'age': 29
   },
   {
-    name: 'Carlo',
-    surname: 'Arcangeli',
-    age: 25,
+    'name': 'Carlo',
+    'surname': 'Arcangeli',
+    'age': 25
   },
 
   {
-    name: 'Amalia',
-    surname: 'Galli',
-    age: 31,
+    'name': 'Amalia',
+    'surname': 'Galli',
+    'age': 31
   },
 
   {
-    name: 'Roberto',
-    surname: 'Ronchi',
-    age: 34,
+    'name': 'Roberto',
+    'surname': 'Ronchi',
+    'age': 34
   },
 
   {
-    name: 'Francesca',
-    surname: 'De Angelis',
-    age: 28,
+    'name': 'Francesca',
+    'surname': 'De Angelis',
+    'age': 28
   },
 
   {
-    name: 'Paola',
-    surname: 'Marini',
-    age: 21,
-  },
+    'name': 'Paola',
+    'surname': 'Marini',
+    'age': 21
+  }
 ];
+
+console.log(classroom);
 
 // Fare un ciclo per stampare nomi e cognomi
 
-for (var key in classroom){
+for (var key = 0; key < classroom.lenght; key++){
   console.log(classroom[key].name + " " + classroom[key].surname);
 }
 
